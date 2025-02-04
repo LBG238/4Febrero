@@ -1,5 +1,10 @@
 class Jose:
     def __init__(self):
         self.nombre= "Jose Luis"
-    def nombre(self):
-        print("Me llamo ", self.nombre())
+    def decir_nombre(self):
+        nombre = self.nombre
+        print(f"Me llamo {nombre}")
+
+persona = Jose()
+print(persona.nombre)
+persona.decir_nombre()
